@@ -24,6 +24,7 @@ export class Books extends Component {
                 .then((data) => {
                     console.log(data);
                 });
+                
     }
 
     handleSearch = (e) => {
